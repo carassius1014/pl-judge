@@ -1,5 +1,5 @@
 open Lib.Todo ;;
-open Types ;;
+open Types.Date ;;
 
 (***
 
@@ -9,7 +9,8 @@ open Types ;;
 
     ここでは、x年y月z日を(x,y,z) : int * int * intで表す。
     見やすくするため、type synonymを使ってdateという型名と置く。
-    つまりdateとint * int * intは全く同じ型である。
+    つまりdate（exercises/types/date.mlで定義されてある）
+    とint * int * intは全く同じ型である。
 
     問題の説明で明示されない限り、不正な日付の入力は考慮しなくて大丈夫。
 
