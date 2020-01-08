@@ -1,4 +1,5 @@
 open Lib.Todo ;;
+open Types ;;
 
 (***
 
@@ -19,9 +20,6 @@ open Lib.Todo ;;
     ***
 
  *)
-
-type date = int * int * int
-;;
 
 (** 
     
